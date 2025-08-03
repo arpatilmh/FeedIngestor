@@ -7,6 +7,10 @@ import java.util.Set;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Represents a settlement message for a betting event from alpha provider.
+ */
+
 @Getter
 @Setter
 public class AlphaBets {

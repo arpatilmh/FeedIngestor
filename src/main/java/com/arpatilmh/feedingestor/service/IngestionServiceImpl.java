@@ -8,6 +8,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+    * IngestionServiceImpl is the implementation of the IIngestionService interface.
+    * It handles the ingestion of feed data from different providers by normalizing the data
+    * and sending it to a message queue.
+ */
+
 @Service
 public class IngestionServiceImpl implements IIngestionService {
 

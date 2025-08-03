@@ -5,7 +5,9 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Set;
-
+/**
+* Represents a settlement message for a betting event from beta provider.
+ */
 @Getter
 @Setter
 public class BetaBets {

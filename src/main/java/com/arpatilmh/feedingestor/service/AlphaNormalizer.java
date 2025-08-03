@@ -9,6 +9,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Map;
+/**
+    * AlphaNormalizer is an implementation of the INormalizer interface that normalizes feed data
+    * from the Alpha provider into a FeedMessage. It handles odds updates and bet settlements.
+    * The normalization process includes parsing JSON data and converting it into OddsChange or BetSettlement objects.
+ */
 
 public class AlphaNormalizer implements INormalizer {
 

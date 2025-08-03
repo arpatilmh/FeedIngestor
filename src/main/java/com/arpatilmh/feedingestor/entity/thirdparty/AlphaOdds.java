@@ -5,6 +5,11 @@ import com.google.gson.annotations.SerializedName;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+* Represents the odds for a sporting event from alpha provider.
+ */
+
+
 @Getter
 @Setter
 public class AlphaOdds {

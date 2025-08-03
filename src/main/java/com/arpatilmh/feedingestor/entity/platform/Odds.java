@@ -5,6 +5,11 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * Represents the odds for a sporting event.
+ * Contains the odds for home, draw, and away outcomes.
+ */
+
 @Setter
 @Getter
 @AllArgsConstructor

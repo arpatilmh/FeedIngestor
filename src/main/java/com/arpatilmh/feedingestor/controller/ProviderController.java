@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+* This controller handles the ingestion of feed data from different providers.
+ */
+
 @RestController
 public class ProviderController {
 

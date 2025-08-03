@@ -4,7 +4,10 @@ import com.arpatilmh.feedingestor.entity.platform.FeedMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-
+/**
+ * LoggingMessageQueue is a simple implementation of IMessageQueue that logs the messages
+ * instead of sending them to an actual message queue.
+ */
 @Component
 public class LoggingMessageQueue implements IMessageQueue {
 

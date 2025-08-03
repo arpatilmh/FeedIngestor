@@ -3,6 +3,12 @@ package com.arpatilmh.feedingestor.entity.platform;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Represents a change in odds for a sporting event.
+ * Contains the updated odds information.
+ */
+
+
 @Getter
 @Setter
 public class OddsChange extends FeedMessage {
